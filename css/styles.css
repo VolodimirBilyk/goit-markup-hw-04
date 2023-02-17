@@ -125,6 +125,8 @@ header {
 
 /* Блоки першої секції */
 
+
+
 .container-main {
     margin-left: auto;
     margin-right: auto;
@@ -152,6 +154,12 @@ header {
     padding-top: 188px;
     padding-bottom: 188px;
     
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/group-people-working-website-template.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
 }
 
 /* Блоки другої секції */
@@ -408,7 +416,7 @@ a {
 }
 /* hero image background */
 .hero-image {
-    background: var(--futer-hero-backcolor);
+    /* background: var(--futer-hero-backcolor); */
 }
 /* Стилі для головного заголовка сторінки */
 .main-title {

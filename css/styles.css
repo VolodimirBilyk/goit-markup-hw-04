@@ -414,10 +414,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--btn-hov-foc-backcolor);
 }
-/* hero image background */
-.hero-image {
-    /* background: var(--futer-hero-backcolor); */
-}
+
 /* Стилі для головного заголовка сторінки */
 .main-title {
     font-weight: 700;
@@ -429,9 +426,9 @@ a {
 /* Стилі для головної кнопки сторінки */
 .main-button {
     background: var(--accent-text-color);
-    border: #000000;
+    border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -439,7 +436,7 @@ a {
 .main-button:hover,
 .main-button:focus {
     background: var(--btn-hov-foc-backcolor);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: var(--btn-hov-foc-backcolor);
 }

@@ -164,6 +164,25 @@ header {
 
 /* Блоки другої секції */
 
+.item-goals-svg {
+    width: 264px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+}
+
+.icon-goals {
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 auto;
+}
+
 .container-goals {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -208,7 +227,21 @@ header {
 
 /* Блоки четвертої секції */
 
+.team-socmedia {
+    width: 40px;
+    height: 40px;
+    
+}
 
+.socmedia-list {
+    list-style: none;
+    display: flex;
+    margin-top: 8px;
+    gap: 24px;
+    align-items: center;
+    margin-left: 16px;
+    
+}
 
 .container-team {    
     margin-left: auto;
@@ -243,6 +276,51 @@ header {
 
 .job-title {
     text-align: center;
+}
+
+/* Блоки пятої секції */
+
+.customers-cell {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    align-items: center;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
+
+.customers-list {
+    display: flex;
+    list-style: none;
+}
+
+.customers-container {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.icon-cover {
+     /* width: 104px;
+    height: 56px; */
+}
+
+.customers-svg {
+    position: absolute;
+    width: 104px;
+    height: 56px;
+    display: block;
+    margin: 0 auto;
+}
+
+.customers-item {
+    margin-right: 24px;
+}
+
+.customers-item:last-child {
+    margin-right: 0;
 }
 
 /* Блоки футера */

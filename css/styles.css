@@ -280,16 +280,9 @@ header {
 
 /* Блоки пятої секції */
 
-.customers-cell {
-    width: 168px;
-    height: 88px;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-    align-items: center;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
+.customers-container {
+    padding-top: 130px;
+    padding-bottom: 120px;
 }
 
 .customers-list {
@@ -297,22 +290,25 @@ header {
     list-style: none;
 }
 
-.customers-container {
-    padding-top: 130px;
-    padding-bottom: 120px;
-}
-
 .icon-cover {
-     /* width: 104px;
-    height: 56px; */
+    display: block;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    
 }
 
 .customers-svg {
-    position: absolute;
-    width: 104px;
-    height: 56px;
     display: block;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
 }
 
 .customers-item {
@@ -325,6 +321,20 @@ header {
 
 /* Блоки футера */
 
+.footer-socmedia {
+    margin-left: 120px;
+}
+
+.title-media {
+    margin-bottom: 16px;
+}
+
+.footer-media-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
 .container-footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -333,6 +343,7 @@ header {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
 }
 
 .footer-logo {
@@ -343,6 +354,7 @@ header {
 .call-to-action {
     margin-top: 16px;
     width: 264px;
+    margin-right: 0px;
 }
 
 /* Блоки Портфоліо Кнопки */

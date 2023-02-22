@@ -228,8 +228,14 @@ header {
 /* Блоки четвертої секції */
 
 .team-socmedia {
+    width: 16px;
+    height: 16px;
+}
+
+.team-socmedia-ancer {
     width: 40px;
     height: 40px;
+    background-color: #404BBF;
     
 }
 

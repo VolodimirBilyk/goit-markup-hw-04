@@ -309,6 +309,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 56px;
+    fill: currentColor;
 }
 
 .customers-item {
